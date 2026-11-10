@@ -2,8 +2,6 @@
 
 Agente de análise de dados via CLI para um restaurante fictício. Você pergunta em português ("qual prato mais vendeu no último trimestre?") e o agente consulta os dados, calcula e responde. Também gera gráficos e faz previsão de faturamento com machine learning.
 
-Projeto irmão do [emporio-da-musica-agent](https://github.com/LuishPalacio/emporio-da-musica-agent), com o mesmo padrão: o LLM (Groq) **só escolhe ferramentas fixas**. Todo o SQL é escrito e parametrizado em Python.
-
 ## Arquitetura (custo zero)
 
 A ideia original era usar AWS. Cada serviço foi trocado por um equivalente local e gratuito:
