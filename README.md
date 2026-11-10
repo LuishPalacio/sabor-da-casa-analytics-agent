@@ -2,7 +2,7 @@
 
 Agente de análise de dados via CLI para um restaurante fictício. Você pergunta em português ("qual prato mais vendeu no último trimestre?") e o agente consulta os dados, calcula e responde. Também gera gráficos e faz previsão de faturamento com machine learning.
 
-## Arquitetura (custo zero)
+## Arquitetura
 
 A ideia original era usar AWS. Cada serviço foi trocado por um equivalente local e gratuito:
 
