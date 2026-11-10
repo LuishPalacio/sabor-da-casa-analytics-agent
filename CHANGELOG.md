@@ -145,6 +145,13 @@ Registro de tudo o que foi feito no projeto, em ordem cronológica. Cada correç
 
 ---
 
+## 2026-11-10: Publicação no GitHub
+
+- Repositório público: [github.com/LuishPalacio/sabor-da-casa-analytics-agent](https://github.com/LuishPalacio/sabor-da-casa-analytics-agent), com o nome no mesmo padrão do `emporio-da-musica-agent`.
+- **Conferido depois do push:** o `.env.example` publicado contém só `GROQ_API_KEY=sua_chave_aqui`, e `.env`, `.venv/`, `data/*.csv`, `outputs/` e `.vscode/` não foram enviados.
+
+---
+
 ## Estado atual
 
 - 17 testes passando.
@@ -152,4 +159,4 @@ Registro de tudo o que foi feito no projeto, em ordem cronológica. Cada correç
   - login por PIN e permissões por perfil (gerente e garçom): proposta feita, aguardando confirmação;
   - ajustes de transparência: descrever as capacidades com exemplos de perguntas em vez de nomes internos, e dizer que sabe só a data, não a hora;
   - decidir se o agente deve recomendar pratos (filtro por turno de almoço e jantar);
-  - publicar no GitHub.
+  - gerar uma chave nova do Groq e revogar a antiga (recomendação de segurança, porque a chave chegou a aparecer na conversa com o assistente).
